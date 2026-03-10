@@ -1,18 +1,24 @@
-Simple Chat Application
+# Multi Client Chat Application
 
-Language: Python
-Protocol: TCP Socket Programming
+This project implements a TCP socket based multi-client chat system in Python.
 
-Features
-- Multiple clients
-- Broadcast messaging
-- Join/Leave notifications
-- Username system
+## Features
+- Multi-client chat
+- Real-time messaging
+- Message timestamps
+- User list command
+- Persistent chat history
+- Server logging
 
-Run Server
+## Technologies Used
+- Python
+- Socket Programming
+- Multithreading
+
+## Run Server
 cd server
 python server.py
 
-Run Client
+## Run Client
 cd client
 python client.py
